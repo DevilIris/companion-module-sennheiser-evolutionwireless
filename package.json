@@ -11,7 +11,7 @@
   "product": "Evolution Wireless",
   "shortname": "EW",
   "description": "Control Evolution Wireless Units",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
   },
