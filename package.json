@@ -11,13 +11,9 @@
   "product": "Evolution Wireless",
   "shortname": "EW",
   "description": "Control Evolution Wireless Units",
-  "main": "lib/index.ts",
+  "main": "index.ts",
   "scripts": {
-    "postinstall": "yarn build",
-    "build": "npx rimraf dist && npx typescript@~4.6",
-    "watch-ts": "tsc -w",
-    "build-ts": "tsc",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+      "test": "echo \"Error: no test specified\" && exit 1"
   },
 
   "bugs": {
